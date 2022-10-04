@@ -213,17 +213,6 @@ a:focus {
   color: #ffbe33;
 }
 
-.user_option .cart_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 
 .user_option .cart_link svg {
   width: 17px;
@@ -419,7 +408,7 @@ a:focus {
   width: 175px;
   min-width: 175px;
   height: 175px;
-  margin-right: 15px;
+  margin-right: 0;
   position: relative;
   -webkit-transition: all 0.1 0.5s;
   transition: all 0.1 0.5s;
@@ -749,7 +738,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 15px;
+  margin: 0;
 }
 
 .client_section .box .img-box {
@@ -765,19 +754,19 @@ a:focus {
           align-items: center;
   width: 115px;
   position: relative;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 .client_section .box .img-box img {
   border-radius: 100%;
   border: 5px solid #ffbe33;
-  position: relative;
+  position: absolute;
 }
 
 .client_section .box .img-box::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 100%;
   top: 0;
   width: 20px;
   height: 20px;
